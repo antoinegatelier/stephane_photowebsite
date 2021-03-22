@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+
+    <title>Prototype - Photo responsiveness</title>
+</head>
+<body onload="adjustHeight()" onresize="adjustHeight()">
+    <main>
+        <nav id='navBar'>
+            <img src="" alt="logo stephane lefebvre photography">
+            <ul>
+                <li>Albums</li>
+                <li>Climbing</li>
+                <li>Snow & Ice</li>
+                <li>Landscapes</li>
+            </ul>
+        </nav>
+        <section id="gallery">
+            <div class="gallery">
+                <img id="picture_1" class="gallery_object" src="./img/201221 607.jpg" alt="photo 1">    
+                <img id="picture_2" class="gallery_object" src="./img/201221 613.jpg" alt="photo 2">    
+                <img id="picture_3" class="gallery_object" src="./img/201221 609.jpg" alt="photo 3">  
+            </div>
+            <div class="gallery">
+                <img id="picture_4" class="gallery_object" src="./img/201221 630.jpg" alt="photo 4">    
+                <img id="picture_5" class="gallery_object" src="./img/201221 666.jpg" alt="photo 5">    
+                <img id="picture_6" class="gallery_object" src="./img/Twan3.jpg" alt="photo 6">   
+            </div>
+            <div class="gallery">
+                <img id="picture_7" class="gallery_object" src="./img/201221 722.jpg" alt="photo 7">    
+                <img id="picture_8" class="gallery_object" src="./img/201221 721.jpg" alt="photo 8">    
+                <img id="picture_9" class="gallery_object" src="./img/201221 637.jpg" alt="photo 9"> 
+            </div>   
+        </section>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+</html>
